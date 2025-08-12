@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.mjs",
   "scripts": {
-    "test": "nodemon src/index.mjs"
+    "test": "nodemon src/index.mjs",
+    "test1": "nodemon src/indexOne.mjs"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
     "autoprefixer": "^10.4.21",
     "nodemon": "^3.1.10",
     "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-extract": "^1.1.1",
     "tailwindcss": "^4.1.11"
   }
 }
